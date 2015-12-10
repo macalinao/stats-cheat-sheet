@@ -40,3 +40,28 @@ For all $i \geq 1$,
 * $p_{i,i+1} = \textbf{P} \{ \text{one arrival} \cap \text{no departures} \} = p_A(1 - p_S)$
 
 Steady state distribution can be computed if $\lambda_S > \lambda_A$.
+
+## M/M/1 system
+
+A/S/n/C
+
+* A -- distribution of interarrival times
+* S -- distribution of service times
+* n -- number of servers
+* C -- capacity
+
+* $\pi_x = \textbf{P} \{ X = x \} = r^x(1 - r)$ for $x = 0, 1, 2, \ldots$
+* $\textbf{E}\{X\} = \frac{r}{1 - r}$
+* $Var(x) = \frac{r}{(1 - r)^2}$
+* $r = \lambda_A / \lambda_S = \mu_S / \mu_A = 1 - \pi_0 = P(busy) = 1 - P(idle)$
+
+The system is functional if $r < 1$. IF $r \geq 1$ the system will be overloaded.
+
+* $W = S_1 + S_2 + S_3 + \ldots + S_X$ -- waiting time
+* $\textbf{E}(W) = \textbf{E}(S_1 + \ldots + S_X) = \textbf{E}(S) \textbf{E}(X) = \frac{\mu_S r}{1 - r} = \frac{r}{\lambda_S(1 - r)}$ -- Expected waiting time
+* $\textbf{E}(R) = \textbf{E}(W) + \textbf{E}(S) = \frac{\mu_S r}{1 - r} + \mu_S = \frac{\mu_S}{1 - r} = \frac{1}{\lambda_S(1 - r)}$ -- Expected response time
+
+Queue length (number of waiting jobs)
+
+* $X_w = X - X_s$ where $X_s$ is number of jobs getting service at any time (0 or 1).
+* $\textbf{E}(X_w) = \textbf{E}(X) - \textbf{E}(X_s) = \frac{r}{1 - r} - r = \frac{r^2}{1 - r}$
