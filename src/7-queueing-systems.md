@@ -32,6 +32,11 @@
 
 * $p_{00} = \textbf{P} \{ \text{no arrivals} \} = 1 - p_A$
 * $p_{01} = \textbf{P} \{ \text{new arrival} \} = p_A$
+
+For all $i \geq 1$,
+
 * $p_{i,i-1} = \textbf{P} \{ \text{no arrivals} \cap \text{one departure} \} = (1 - p_A)p_S$
 * $p_{i,i} = \textbf{P} \{ \text{no arrivals} \cap \text{no departures} \} + \textbf{P} \{ \text{one arrival} \cap \text{one departure} \} = (1 - p_A)(1 - p_S) + p_A p_S$
 * $p_{i,i+1} = \textbf{P} \{ \text{one arrival} \cap \text{no departures} \} = p_A(1 - p_S)$
+
+Steady state distribution can be computed if $\lambda_S > \lambda_A$.
