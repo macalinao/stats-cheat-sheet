@@ -8,3 +8,9 @@
 * $\textbf{E}(X) = np$
 * $\text{Var}(X) = npq$
 
+## Geometric distribution
+* $p$ -- probability of success
+* $P(x) = (1 - p)^{x - 1}p, x = 1, 2, \ldots$
+* $\textbf{E}(X) = \frac{1}{p}$
+* $\text{Var}(X) = \frac{1 - p}{p^2}$
+
