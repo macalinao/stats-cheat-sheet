@@ -1,5 +1,7 @@
 # Chapter 4 -- Continuous Distributions
 
+* $\textbf{E}(X) = \int_0^\infty xf(x)dx$
+
 ## Uniform distribution
 * $f(x) = \frac{1}{b}$ for $0 \leq x \leq b$.
 * $\textbf{E}(X) = \frac{a + b}{2}$
