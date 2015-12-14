@@ -65,3 +65,4 @@ Queue length (number of waiting jobs)
 
 * $X_w = X - X_s$ where $X_s$ is number of jobs getting service at any time (0 or 1).
 * $\textbf{E}(X_w) = \textbf{E}(X) - \textbf{E}(X_s) = \frac{r}{1 - r} - r = \frac{r^2}{1 - r}$
+
