@@ -12,6 +12,7 @@
 * $\hat \theta \pm z_{\alpha / 2} * \sigma(\hat \theta)$ -- Confidence interval, Normal distribution -- $(1 - \alpha)$ 100% confidence interval for $\theta$.
 * $\bar X \pm z_{\alpha / 2} \frac{\sigma}{\sqrt{n}}$ -- Confidence interval for the mean; $\sigma$ is known
 * $\bar X - \bar Y \pm z_{\alpha / 2} \sqrt{\frac{\sigma_X^2}{n} + \frac{\sigma_Y^2}{m}}$ -- Confidence interval for the difference of means; known $\sigma$'s
+* $n \geq (z_{\alpha / 2} \sigma / \Delta)^2$ -- sample size for significance, where $\Delta$ is margin of error
 
 ## Unknown standard deviation
 * $\hat p \pm z_{\alpha / 2} \sqrt{\frac{\hat p(1 - \hat p)}{n}}$ -- Confidence interval for a population proportion
